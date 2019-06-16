@@ -4,7 +4,7 @@ title:      My First Post               # 标题
 subtitle:   Hello World, Hello Blog #副标题
 date:       1970-06-06              # 时间
 author:     Angkee                      # 作者
-header-img: http://ww3.sinaimg.cn/large/006tNc79ly1g4371xiu8cj308k04jmwy.jpg    #这篇文章标题背景图片
+header-img:    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 生活
