@@ -34,7 +34,7 @@ Gitalk_CLIENT_ID: de7172b389f5a556a3ea
 Gitalk_CLIENT_Secret: deb404176f10ba701f4c2187c48ad79f6f3f90d3
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
 catalog: true  
 
 
