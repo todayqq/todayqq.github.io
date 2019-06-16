@@ -1,22 +1,23 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
+title: 赵金超的博客
+SEOTitle: 赵金超的博客 | Angkee Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: ""
-keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+email: jinchao0220@gmail.com
+description: "赵金超的博客，一个程序员的成长笔记，PHP,Python,区块链,生活杂谈"
+keyword: "赵金超,angkee,PHP,Python,区块链"
+url: "http://angkee.github.io"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+weibo_username:     angkee
+#facebook_username:  
+zhihu_username:     angkee-78
+github_username:    todayqq
+jianshu_username:   bf11017ee65a
+#twitter_username:  
 
 
 
@@ -28,12 +29,13 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
-
+Gitalk: true
+Gitalk_CLIENT_ID: de7172b389f5a556a3ea
+Gitalk_CLIENT_Secret: deb404176f10ba701f4c2187c48ad79f6f3f90d3
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
+#gems: [jekyll-paginate]
+catalog: true  
 
 
 # Markdown settings
@@ -49,27 +51,19 @@ kramdown:
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-# Duoshuo settings
-duoshuo_username: huxblog
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-
-
 # Analytics settings
 # Baidu Analytics
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: angkee.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "左手代码，右手吉他，一台 Mac 走天下"
+sidebar-avatar: /img/avatar-angkee.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -84,17 +78,5 @@ friends: [
     {
         title: "Hux Blog",
         href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
     }
 ]
