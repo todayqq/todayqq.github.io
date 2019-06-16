@@ -4,8 +4,8 @@ SEOTitle: 赵金超的博客 | Angkee Blog
 header-img: img/home-bg.jpg
 email: jinchao0220@gmail.com
 description: "赵金超的博客，一个程序员的成长笔记，PHP,Python,区块链,生活杂谈"
-keyword: "赵金超,angkee,PHP,Python,区块链"
-url: "http://angkee.github.io"              # your host, for absolute URL
+keyword: "赵金超,angkee,PHP,Python,区块链,程序员笔记"
+url: "https://today.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -34,7 +34,7 @@ Gitalk_CLIENT_ID: de7172b389f5a556a3ea
 Gitalk_CLIENT_Secret: deb404176f10ba701f4c2187c48ad79f6f3f90d3
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-#gems: [jekyll-paginate]
+gems: [jekyll-paginate]
 catalog: true  
 
 
@@ -53,10 +53,10 @@ kramdown:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 8c05dff7198d67f790bf13a86f8a170c
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: angkee.me
+ga_track_id: 'UA-142184694-1'            # Format: UA-xxxxxx-xx
+ga_domain: today.github.io
 
 
 
