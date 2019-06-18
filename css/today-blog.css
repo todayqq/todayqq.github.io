@@ -657,6 +657,7 @@ pre code {
   width: auto;
   white-space: pre;
   word-wrap: normal;
+  padding: 10px; 
 }
 code,
 kbd,
