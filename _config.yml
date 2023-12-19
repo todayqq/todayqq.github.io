@@ -1,10 +1,10 @@
 # Site settings
-title: 赵金超的博客
-SEOTitle: 赵金超的博客 | Angkee Blog
+title: Angkee的博客
+SEOTitle: Angkee的博客 | Angkee Blog
 header-img: img/home-bg.jpg
-email: jinchao0220@gmail.com
-description: "赵金超的博客，一个程序员的成长笔记，PHP,Python,区块链,生活杂谈"
-keyword: "赵金超,angkee,PHP,Python,区块链,程序员笔记"
+email: angkee@qq.com
+description: "Angkee的博客，一个程序员的成长笔记，PHP,Python,区块链,生活杂谈"
+keyword: "angkee,PHP,Python,区块链,程序员笔记"
 url: "https://today.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
